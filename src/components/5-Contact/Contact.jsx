@@ -22,6 +22,7 @@ export default function Contact() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        setSuccess(false)
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -30,7 +31,12 @@ export default function Contact() {
                 name, email, message
             }),
         })
-            .then(() => setSuccess(true))
+            .then(() => {
+                setSuccess(true)
+                setName('')
+                setEmail('')
+                setMessage('')
+            })
             .catch((error) => alert(error));
     };
 
@@ -51,13 +57,12 @@ export default function Contact() {
                         <button className={styles.contactButtons}>Download Resume</button>
                     </div>
                     <form onSubmit={handleSubmit} className={styles.contactRight}>
-                        {success && "message sent"}
                         <input type="hidden" name="form-name" value="contact" />
                         <input className={styles.contactInputNameEmail} type="text" placeholder="Name*" name="name" required value={name} onChange={(e) => setName(e.target.value)} />
                         <input className={styles.contactInputNameEmail} type="text" placeholder="Email*" name="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
                         <textarea className={styles.contactInputMessage} type="text" placeholder="Message*" name="message" rows="8"
                             required value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-                        <button type='submit' className={styles.contactButtons}>Send Message</button>
+                        <button type='submit' className={styles.contactButtons}>Send Message</button>  {success && "message sent"}
                     </form>
                 </div>
             </section>
