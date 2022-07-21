@@ -50,6 +50,7 @@ export default function Contact() {
                         <button className={styles.contactButtons}>View Resume</button>
                         <button className={styles.contactButtons}>Download Resume</button>
                     </div>
+                    {success && "You have successfully sent your message"}
                     <form onSubmit={handleSubmit} className={styles.contactRight}>
                         <input className={styles.contactInputNameEmail} type="text" placeholder="Name*" name="name" required value={name} onChange={(e) => setName(e.target.value)} />
                         <input className={styles.contactInputNameEmail} type="text" placeholder="Email*" name="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
