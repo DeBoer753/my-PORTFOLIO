@@ -1,0 +1,329 @@
+.introArtBackground {
+    padding: 722.5px 0 0 0;
+    position: relative;
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+/* MOUNTAIN 1 */
+.mountain1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 120px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 350px solid rgb(201, 233, 255);
+    border-left: 180px solid transparent;
+    z-index: 5; /* WARNING: this might overthrow header bar since header has a z index */
+    margin-bottom: 0px;
+}
+
+.mountainShadow1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 300px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 350px solid rgb(102, 168, 212);
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+    margin-bottom: 0px;
+}
+
+/* SNOW 1 */
+.snow1 {
+    position: absolute;
+    content: '';
+    bottom: -98px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ffffff;
+    border-left: 50px solid transparent;
+    z-index: 6;
+}
+
+.snowShadow1 {
+    position: absolute;
+    content: '';
+    bottom: -87px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 100px solid #e8e8e8;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snowJagged1 {
+    position: absolute;
+    content: '';
+    bottom: -138px;
+    left: -35px;
+    border-top: 40px solid #ffffff;
+    border-right: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 25px solid transparent;
+    z-index: 6;
+}
+
+
+/* MOUNTAIN 2*/
+.mountain2 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 150px solid rgb(201, 233, 255);
+    border-left: 130px solid transparent;
+    z-index: 5; /* WARNING: this might overthrow header bar since header has a z index */
+    margin-bottom: 0px;
+}
+
+.mountainShadow2 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 130px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid rgb(102, 168, 212);
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+    margin-bottom: 0px;
+}
+
+/* SNOW 2 */
+.snow2 {
+    position: absolute;
+    content: '';
+    bottom: -99px;
+    left: -85px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ffffff;
+    border-left: 85px solid transparent;
+    z-index: 6;
+}
+
+.snowShadow2 {
+    position: absolute;
+    content: '';
+    bottom: -81px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 54px solid transparent;
+    border-bottom: 100px solid #e8e8e8;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snowJagged2a {
+    /* position: absolute;
+    content: '';
+    bottom: -117px;
+    left: -31px;
+    border-top: 20px solid #ffffff;
+    border-right: 30px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 36px solid transparent;
+    z-index: 6; */
+}
+.snowJagged2b {
+    position: absolute;
+    content: '';
+    bottom: -118px;
+    left: -60px;
+    border-top: 20px solid #ffffff;
+    border-right: 20px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid transparent;
+    z-index: 6;
+}
+
+/* MOUNTAIN 3 */
+.mountain3 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 150px solid rgb(201, 233, 255);
+    border-left: 130px solid transparent;
+    z-index: 5; /* WARNING: this might overthrow header bar since header has a z index */
+    margin-bottom: 0px;
+    margin-left: 400px;
+}
+
+.mountainShadow3 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 130px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid rgb(102, 168, 212);
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+    margin-bottom: 0px;
+    margin-left: 400px
+}
+
+/* SNOW 3 */
+.snow3 {
+    position: absolute;
+    content: '';
+    bottom: -99px;
+    left: -85px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ffffff;
+    border-left: 85px solid transparent;
+    z-index: 6;
+}
+
+.snowShadow3 {
+    position: absolute;
+    content: '';
+    bottom: -81px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 54px solid transparent;
+    border-bottom: 100px solid #e8e8e8;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snowJagged3 {
+    position: absolute;
+    content: '';
+    bottom: -117px;
+    left: -57px;
+    border-top: 20px solid #ffffff;
+    border-right: 30px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 36px solid transparent;
+    z-index: 6;
+}
+
+/* MOUNTAIN 4 */
+.mountain4 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 120px;
+    border-top: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 600px solid rgb(201, 233, 255);
+    border-left: 300px solid transparent;
+    z-index: 5; /* WARNING: this might overthrow header bar since header has a z index */
+    margin-bottom: 0px;
+    margin-left: 670px;
+}
+
+.mountainShadow4 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 300px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 600px solid rgb(102, 168, 212);
+    border-left: 120px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg);
+    margin-bottom: 0px;
+    margin-left: 670px;
+}
+
+/* SNOW 4 */
+.snow4 {
+    position: absolute;
+    content: '';
+    bottom: -98px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ffffff;
+    border-left: 50px solid transparent;
+    z-index: 6;
+}
+
+.snowShadow4 {
+    position: absolute;
+    content: '';
+    bottom: -95px;
+    left: -20px;
+    border-top: 5px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 99px solid #e8e8e8;
+    border-left: 19.5px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-5deg);
+}
+
+.snowJagged4 {
+    position: absolute;
+    content: '';
+    bottom: -138px;
+    left: -45px;
+    border-top: 40px solid #ffffff;
+    border-right: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 25px solid transparent;
+    z-index: 6;
+}
+
+.snowJagged4b {
+    position: absolute;
+    content: '';
+    bottom: -115px;
+    left: -15px;
+    border-top: 30px solid #e8e8e8;
+    border-right: 8px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid transparent;
+    z-index: 6;
+    transform: skewY(-5deg);
+}
+
+/* 
+.building-1 {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    top: 10px; 
+    right: 1000px;
+    left: 230px; 
+    bottom: 0px;
+    border-top: 300px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid rgb(216, 144, 0);
+    border-left: 0px solid transparent;
+    z-index: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+}  */
+

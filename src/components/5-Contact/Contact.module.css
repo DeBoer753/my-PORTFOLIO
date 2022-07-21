@@ -1,0 +1,98 @@
+.contactHeaderBox {
+    background-color: rgb(155, 215, 255);
+}
+
+.contactHeader {
+    color:rgb(12, 110, 194);
+    background-color: rgb(155, 215, 255);
+    margin: 0;
+    padding: 50px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contact {
+    background-color: rgb(155, 215, 255);
+    margin: 0 0 0 0;
+    padding-top: 50px; 
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactMain {
+    background-color: rgba(12, 109, 194, 0.288);;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 30px;
+    max-width: 900px;
+}
+@media only screen and (min-width: 600px) {
+    .contactMain {
+        flex-direction: row;
+    }
+}
+
+.contactLeft {
+    color: white;
+    margin: 0 20px 20px 0;
+    width: 100%
+}
+
+.contactLeft h2 {
+    margin: 0;
+}
+
+.contactRight {
+    /* display: flex;
+    flex-direction: column; */
+    /* padding-bottom: 200px; */
+    /* overflow: scroll; */
+}
+
+.contactInputNameEmail {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 34px;
+    margin: 5px 0;
+    
+}
+.contactInputMessage {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    /* width: 500px;
+    height: 300px; */
+    width: 100%;
+    height: 250px;
+    margin: 10px 0; /* top and bottom */
+}
+
+.contactButtons {
+    background-color: rgb(12, 110, 194);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1300px) {
+
+    .contactButtons {
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 467px) {
+
+    .contactHeader {
+        text-align: center;
+    }
+}
+
