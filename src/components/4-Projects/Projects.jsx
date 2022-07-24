@@ -70,9 +70,9 @@ export default function Projects() {
                 <div className={styles.project}> 
                     <img src={bloodBank} alt="" border="0" />
                     <div className={styles.projectInfo}>
-                        <h5>Blood Bank</h5>
+                        <h5>Blood Bath</h5>
                         <p>A group project aimed towards medical professionals to allow them access to patient donor data.
-                            Blood Bank was created to pack down the concepts of what is backend and the relationships involved
+                            Blood Bath was created to pack down the concepts of what is backend and the relationships involved
                             in sending data from one point to another using PostgreSQL. We also added user authentication to
                             simulate profile ownership as a medical professional.</p>
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, ES6 Template Engine, Node.js,
