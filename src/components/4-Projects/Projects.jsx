@@ -27,8 +27,7 @@ export default function Projects() {
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, and React.js</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
-                            <button className={styles.projectButtons}>Live Site</button>
-                            <button className={styles.projectButtons}>View Code on Github</button>
+                            <a href='https://github.com/DeBoer753/my-portfolio' target="_blank" rel="noreferrer"><button className={styles.projectButtons}>View Code on Github</button></a>
                         </p>
                     </div>
                 </div>
