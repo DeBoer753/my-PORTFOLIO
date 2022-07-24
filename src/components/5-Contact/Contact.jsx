@@ -65,7 +65,7 @@ export default function Contact() {
                             <div className={styles.sendMessageButtonBox}>
                                 <button type='submit' className={styles.contactButtons}>Send Message</button>
                                 <div>
-                                    <div className={styles.messageSuccessMsgBox}>{success && "message sent"} message sent</div>
+                                    <div className={styles.messageSuccessMsgBox}>{success && "message sent"} </div>
                                 </div>
                             </div>
                 </form>
