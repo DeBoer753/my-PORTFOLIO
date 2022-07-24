@@ -71,6 +71,11 @@
     margin: 10px 0; /* top and bottom */
 }
 
+.messageSuccessMsgBox {
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
 .contactButtons {
     background-color: rgb(12, 110, 194);
     border: none;

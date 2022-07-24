@@ -62,8 +62,9 @@ export default function Contact() {
                         <input className={styles.contactInputNameEmail} type="text" placeholder="Email*" name="email" required value={email} onChange={(e) => setEmail(e.target.value)} />
                         <textarea className={styles.contactInputMessage} type="text" placeholder="Message*" name="message" rows="8"
                             required value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-                        <button type='submit' className={styles.contactButtons}>Send Message</button>  {success && "message sent"}
-                    </form>
+                            <button type='submit' className={styles.contactButtons}>Send Message</button>
+                            <div className={styles.messageSuccessMsgBox}>{success && "message sent"}</div>
+                </form>
                 </div>
             </section>
         </div>
