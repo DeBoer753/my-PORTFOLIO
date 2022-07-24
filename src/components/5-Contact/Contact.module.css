@@ -78,7 +78,6 @@
 }
 
 .messageSuccessMsgBox {
-
     padding-top: 5px;
 }
 
@@ -90,6 +89,11 @@
     padding: 10px;
     margin-right: 5px;
     cursor: pointer;
+}
+
+.contactButtons a {
+    color: white;
+    font-size: 100px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 1300px) {

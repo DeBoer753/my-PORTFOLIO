@@ -53,7 +53,7 @@ export default function Contact() {
                             interests and goals. Whether you are looking to have a plus one on a project, a website you envision
                             to have built for your small business, or have questions about anything else really, I'd love to
                             chat!</p>
-                        <button className={styles.contactButtons}>View Resume</button>
+                        <a href="https://www.linkedin.com/in/mylesdeboer/" target="_blank" rel='noreferrer'><button className={styles.contactButtons}>View LinkedIn</button></a>
                         <button className={styles.contactButtons}>Download Resume</button>
                     </div>
                     <form onSubmit={handleSubmit} className={styles.contactRight}>
