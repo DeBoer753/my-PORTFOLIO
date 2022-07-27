@@ -54,7 +54,7 @@ export default function Contact() {
                             to have built for your small business, or have questions about anything else really, I'd love to
                             chat!</p>
                         <a href="https://www.linkedin.com/in/mylesdeboer/" target="_blank" rel='noreferrer'><button className={styles.contactButtons}>View LinkedIn</button></a>
-                        <button className={styles.contactButtons}>Download Resume</button>
+                        <a href="/Resume.pdf" download><button className={styles.contactButtons}>Download Resume</button></a>
                     </div>
                     <form onSubmit={handleSubmit} className={styles.contactRight}>
                         <input type="hidden" name="form-name" value="contact" />
@@ -65,7 +65,7 @@ export default function Contact() {
                             <div className={styles.sendMessageButtonBox}>
                                 <button type='submit' className={styles.contactButtons}>Send Message</button>
                                 <div>
-                                    <div className={styles.messageSuccessMsgBox}>{success && "message sent"} </div>
+                                    <div className={styles.messageSuccessMsgBox}>{success && "message sent"}</div>
                                 </div>
                             </div>
                 </form>
@@ -74,3 +74,5 @@ export default function Contact() {
         </div>
     )
 }
+
+
