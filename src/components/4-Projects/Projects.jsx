@@ -40,7 +40,7 @@ export default function Projects() {
                             input issue priority, the status of the issue, and assign certain issues to those with certain development strengths. Bugsly is simple, 
                             useful, and easy to use all in one. 
                         </p>
-                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, Redux, Sequelize, and PostgreSQL</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, Chakra, JavaScript, React.js, Redux, Sequelize, and PostgreSQL</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
                         <p>
                             <a href="https://bugsly.herokuapp.com/login" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
