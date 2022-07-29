@@ -59,7 +59,7 @@ export default function Projects() {
                             city inputted, and depending on the daily and weekly forecast given, images will appear that represent activities
                             of what is suited best for the selected forecast.</p>
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, Redux, and Photoshop</p>
-                        <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
                         <p>
                             <a href="https://www.deboer753-weatherbox.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
                                 Site</button></a>
