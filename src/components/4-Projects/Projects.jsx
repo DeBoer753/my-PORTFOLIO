@@ -43,7 +43,7 @@ export default function Projects() {
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, Redux, Sequelize, and PostgreSQL</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
                         <p>
-                            <a href="https://www.deboer753-weatherbox.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                            <a href="https://bugsly.herokuapp.com/login" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
                                 Site</button></a>
                             <a href="https://github.com/DeBoer753/bug-tracker-PROJECT" target="_blank" rel="noreferrer"><button
                                 className={styles.projectButtons}>View Code on Github</button></a>
