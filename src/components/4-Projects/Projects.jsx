@@ -25,7 +25,7 @@ export default function Projects() {
                         <p>A portfolio based website displaying my background in visual detail to learn more about who I am, the
                             skills I've developed, and projects I have either created personally or in collaboration with
                             teammates. </p>
-                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, and React.js</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
                             <a href='https://github.com/DeBoer753/my-portfolio' target="_blank" rel="noreferrer"><button className={styles.projectButtons}>View Code on Github</button></a>
@@ -40,7 +40,7 @@ export default function Projects() {
                             input issue priority, the status of the issue, and assign certain issues to those with certain development strengths. Bugsly is simple, 
                             useful, and easy to use all in one. 
                         </p>
-                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, Chakra, JavaScript, React.js, Redux, Sequelize, and PostgreSQL</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, Chakra, JavaScript, React.js, Redux, Sequelize, PostgreSQL, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
                         <p>
                             <a href="https://bugsly.herokuapp.com/login" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
@@ -58,7 +58,7 @@ export default function Projects() {
                             the city's forecast. The theme is based around unpacking a box with weather related contents inside. Upon each 
                             city inputted, and depending on the daily and weekly forecast given, images will appear that represent activities
                             of what is suited best for the selected forecast.</p>
-                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, and Redux</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, Redux, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
                             <a href="https://www.deboer753-weatherbox.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
