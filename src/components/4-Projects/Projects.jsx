@@ -4,6 +4,7 @@ import sheltr from '../../imgs/sheltr.png'
 import bloodBank from '../../imgs/bloodBank.png'
 import bashscape from '../../imgs/bashscape.png'
 import weatherBox from '../../imgs/weatherBox.png'
+import bugsly from '../../imgs/bugsly.png'
 
 // CSS:
 import styles from './Projects.module.css'
@@ -28,6 +29,24 @@ export default function Projects() {
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
                             <a href='https://github.com/DeBoer753/my-portfolio' target="_blank" rel="noreferrer"><button className={styles.projectButtons}>View Code on Github</button></a>
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.project}>
+                    <img src={bugsly} alt="" border="0" />
+                    <div className={styles.projectInfo}>
+                        <h5>Bugsly</h5>
+                        <p>A group bug tracking project that gives users an opportunity to list issues while collaborating with teammates to tackle problems firsthand. Users can 
+                            input issue priority, the status of the issue, and assign certain issues to those with certain development strengths. Bugsly is simple, 
+                            useful, and easy to use all in one. 
+                        </p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, JavaScript, React.js, Redux, Sequelize, and PostgreSQL</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
+                        <p>
+                            <a href="https://www.deboer753-weatherbox.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                                Site</button></a>
+                            <a href="https://github.com/DeBoer753/bug-tracker-PROJECT" target="_blank" rel="noreferrer"><button
+                                className={styles.projectButtons}>View Code on Github</button></a>
                         </p>
                     </div>
                 </div>
