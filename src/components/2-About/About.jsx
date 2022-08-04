@@ -31,7 +31,6 @@ export default function About() {
                             prioritizes growth for their employees. I look forward to implementing my current skills and
                             adding to the existing talent showcased within those establishments. Thank you for visiting and
                             I hope you may find my skills and experience of interest.</p>
-
                         <p>A walk down memory lane...Below are two of my old college animation projects and my photography account (non coding related) that add on to my way of creative thinking. 
                             [<a href="https://www.youtube.com/watch?v=E1IA18rUHAY" target="_blank" rel='noreferrer'>thingsiluv</a>, 
                             <a href="https://www.youtube.com/watch?v=3HpOfMvHv9A" target="_blank" rel='noreferrer'> Pixel Tree feat. Leonardo Dicaprio</a>, 
