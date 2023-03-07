@@ -43,8 +43,8 @@ export default function Projects() {
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: HTML, CSS, Chakra, JavaScript, React.js, Redux, Sequelize, PostgreSQL, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop and tablet</p>
                         <p>
-                            <a href="https://bugsly.herokuapp.com/login" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
-                                Site</button></a>
+                            {/* <a href="https://bugsly.herokuapp.com/login" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                                Site</button></a> */}
                             <a href="https://github.com/DeBoer753/bug-tracker-PROJECT" target="_blank" rel="noreferrer"><button
                                 className={styles.projectButtons}>View Code on Github</button></a>
                         </p>
@@ -98,8 +98,8 @@ export default function Projects() {
                             Express, and PostgreSQL/Sequelize</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
-                            <a href="https://bloodbathproject.herokuapp.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
-                                Site</button></a>
+                            {/* <a href="https://bloodbathproject.herokuapp.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                                Site</button></a> */}
                             <a href="https://github.com/rlmcmillan12/Project_Bloodbath" target="_blank" rel="noreferrer"><button
                                 className={styles.projectButtons}>View Code on Github</button></a>
                         </p>
