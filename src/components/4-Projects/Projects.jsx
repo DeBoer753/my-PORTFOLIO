@@ -1,4 +1,5 @@
 // IMGS:
+import metatower from '../../imgs/metatower.png'
 import portfolio from '../../imgs/portfolio.png'
 import sheltr from '../../imgs/sheltr.png'
 import bloodBank from '../../imgs/bloodBank.png'
@@ -18,6 +19,21 @@ export default function Projects() {
                 <h1 className={styles.projectsHeader} id="projects">Projects</h1>
             </div>
             <section className={styles.projects}>
+                <div className={styles.project}>
+                    <img src={metatower} alt="" border="0" />
+                    <div className={styles.projectInfo}>
+                        <h5>Metatower Media LLC</h5>
+                        <p>A website showcasing my services in web development, photography, videography, and graphic design for small businesses.</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Tools Used: Next.js, Typescript, Chakra UI, Framer Motion, and Photoshop</p>
+                        <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
+                        <p>
+                            <a href="https://splendid-conkies-26e4a0.netlify.app/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                                Site</button></a>
+                            <a href="https://github.com/DeBoer753/myllc-APP" target="_blank" rel="noreferrer"><button
+                                className={styles.projectButtons}>View Code on Github</button></a>
+                        </p>
+                    </div>
+                </div>
                 <div className={styles.project}>
                     <img src={portfolio} alt="" border="0" />
                     <div className={styles.projectInfo}>

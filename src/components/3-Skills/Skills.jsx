@@ -20,11 +20,19 @@ export default function Skills() {
                     </div>
                     <div className={styles.svgContainer}>
                         <img className={styles.svgSizeAndColor} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"} alt="" />
-                        <p className={styles.svgTitle}>JavaScript</p>
+                        <p className={styles.svgTitle}>JavaScript</p> 
+                    </div>
+                    <div className={styles.svgContainer}>
+                        <img className={styles.svgSizeAndColor} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"} alt="" />
+                        <p className={styles.svgTitle}>Typescript</p>
                     </div>
                     <div className={styles.svgContainer}>
                         <img className={styles.svgSizeAndColor} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} alt="" />
                         <p className={styles.svgTitle}>React.js</p>
+                    </div> 
+                    <div className={styles.svgContainer}>
+                        <img className={styles.svgSizeAndColor} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-plain.svg"} alt="" />
+                        <p className={styles.svgTitle}>Next.js</p>
                     </div>
                     <div className={styles.svgContainer}>
                         <img className={styles.svgSizeAndColor} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg"} alt="" />
