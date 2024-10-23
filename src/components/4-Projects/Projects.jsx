@@ -27,7 +27,7 @@ export default function Projects() {
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: Next.js, Typescript, Chakra UI, Framer Motion, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
                         <p>
-                            <a href="https://splendid-conkies-26e4a0.netlify.app/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
+                            <a href="https://graybuckmedia.com/" target="_blank" rel="noreferrer"><button className={styles.projectButtons}>Live
                                 Site</button></a>
                             <a href="https://github.com/DeBoer753/myllc-APP" target="_blank" rel="noreferrer"><button
                                 className={styles.projectButtons}>View Code on Github</button></a>
