@@ -1,5 +1,5 @@
 // IMGS:
-import metatower from '../../imgs/metatower.png'
+import graybuck from '../../imgs/graybuckmedia.png'
 import portfolio from '../../imgs/portfolio.png'
 import sheltr from '../../imgs/sheltr.png'
 import bloodBank from '../../imgs/bloodBank.png'
@@ -20,9 +20,9 @@ export default function Projects() {
             </div>
             <section className={styles.projects}>
                 <div className={styles.project}>
-                    <img src={metatower} alt="" border="0" />
+                    <img src={graybuck} alt="" border="0" />
                     <div className={styles.projectInfo}>
-                        <h5>Metatower Media LLC</h5>
+                        <h5>Graybuck Media LLC</h5>
                         <p>A website showcasing my services in web development, photography, videography, and graphic design for small businesses.</p>
                         <p className={styles.projectInfoLanguagesUsed}>Tools Used: Next.js, Typescript, Chakra UI, Framer Motion, and Photoshop</p>
                         <p className={styles.projectInfoLanguagesUsed}>Compatible Devices: desktop, tablet, and smartphone</p>
